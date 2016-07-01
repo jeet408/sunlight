@@ -1,0 +1,925 @@
+/* All of the pages */
+.tab-content {
+    margin-top: -21px;
+}
+
+/*----------HOME PAGE----------*/
+body {
+}
+
+.body {
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+}
+
+#home {
+    background-color: #2c3e50;
+    background-attachment: fixed;
+}
+
+/* CAROUSEL */
+/* Carousel base class */
+.carousel {
+    height: 645px;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 645px;
+    background-color: black;
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 645px;
+}
+
+/* Dine in or take out */
+#dinetakecontainer {
+    width: 95%;
+    margin-left: 2.5%;
+    background-color: #ecf0f1;
+    box-shadow: 1px 1px 30px 5px black;
+}
+
+#dinetakecontainer h1 {
+    text-align: center;
+    margin: 3% 0 1% 35%;
+    border: 2px solid #7f8c8d;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: inline-block;
+    padding: 2%;
+    text-shadow: 1px 1px 1px grey;
+}
+
+#dinetakecontainer p {
+    text-align: center;
+}
+
+#dinetakerow img {
+    border: 5px double black;
+    margin: 3% 0 3% 3.8%;
+}
+
+/* Catering Container */
+#cateringcontainer {
+    background-image: url(http://demo.theme.co/restaurant/wp-content/uploads/sites/66/2015/08/bg-bamboo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    margin-left: 2.5%;
+    box-shadow: 1px 15px 30px 5px black;
+}
+
+#cateringcontainer h1 {
+    color: white;
+    text-align: center;
+    margin: 3% 0 0 37.5%;
+    border: 2px solid #7f8c8d;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: inline-block;
+    padding: 2%;
+}
+
+#cateringcontainer h3 {
+    color: lightgrey;
+    text-align: center;
+}
+
+#cateringphotos img {
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    margin: 5% 0 7% 2.4%;
+}
+
+#cateringphotos h6 {
+    color: grey;
+    font-size: 100%;
+    text-align: center;
+    position: absolute;
+    margin: -6% 0 0 12.5%;
+}
+
+#cateringphotos h5 {
+    color: grey;
+    font-size: 100%;
+    text-align: center;
+    position: absolute;
+    margin: -6% 0 0 46%;
+}
+
+#cateringphotos h4 {
+    color: grey;
+    font-size: 100%;
+    text-align: center;
+    position: absolute;
+    margin: -6% 0 0 74%;
+}
+
+/* Banquet Hall Container */
+#hallcontainer {
+    background-image:url(http://i1255.photobucket.com/albums/hh639/Jeetendra408/Hall_79.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 0px;
+    box-shadow: 1px 15px 30px 5px black;
+}
+
+#hallcontainer h1 {
+    color: #3498db;
+    text-align: center;
+    position: absolute;
+    padding: 20% 18% 20.5% 18%;
+    margin-left: 1.7%;
+    background-color: rgba(5, 5, 5, 0.4);
+    text-shadow: 5px 5px 5px black;
+}
+
+#hallcontainer h3 {
+    color: black;
+    text-align: center;
+    position: absolute;
+    padding: 7% 5% 2% 5%;
+    margin: 20% 0 0 7.59%;
+    background-color: rgba(225, 225, 225, 0.7);
+}
+
+#hallcontainer h2 {
+    color: #bdc3c7;
+    text-align: center;
+    background-color: rgba(5, 5, 5, 0.8);
+    margin: 0 0 0 59%;
+    padding: 11% 3% 11% 3%;
+    text-shadow: 1px 1px 1px #3498db;
+}
+
+/* Sweet Container */
+#sweetcontainer {
+    width: 95%;
+    margin-left: 2.5%;
+    background-color: #ecf0f1;
+    box-shadow: 1px 1px 30px 5px black;
+}
+
+#sweetcontainer h1 {
+    text-align: center;
+    padding: 2%;
+    margin: 3% 0 0 33%;
+    border: 2px solid #7f8c8d;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: inline-block;
+    text-shadow: 1px 1px 1px grey;
+}
+
+#sweetcontainer p {
+    text-align: center;
+}
+
+#sweetcontainer img {
+    margin: 3% 0 3% 3.5%;
+    border: 5px double black;
+}
+
+/* Social Media */
+#facebookcontainer {
+    position: absolute;
+    width: 47.5%;
+    background-color: #3498db;
+    text-align: center;
+    margin-left: 2.5%;
+    color: white;
+    padding: 3% 0 3% 0;
+    box-shadow: -8px 20px 30px 0px black;
+}
+
+#yelpcontainer {
+    width: 47.5%;
+    background-color: #e74c3c;
+    text-align: center;
+    margin-left: 50%;
+    color: white;
+    padding: 3% 0 3% 0;
+    box-shadow: 0px 15px 30px 5px black;
+}
+
+footer {
+    color: white;
+    background-color: transparent;
+    text-align: right;
+    padding-bottom: 0.1%;
+    margin: 1% 3% 0 0;
+}
+
+/*----------MENU PAGE----------*/
+#menu {
+    background-image: url(http://www.hdwallpapers.in/walls/agra_fort_india-normal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#mainmenupicture {
+    width: 100%;
+    padding: 0px;
+}
+
+/* List of Items */
+#myScrollspy {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container .col-sm-9 {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Heading of Menu */
+/* Appetizers, tandoori specialties... */
+.col-sm-9 h1 {
+    color: brown;
+}
+
+.col-sm-9 h4 {
+    color: saddlebrown;
+}
+
+.col-sm-9 p {
+    color: white;
+}
+
+/*----------PARTY HALL PAGE----------*/
+#partyhall {
+    background-color: #bdc3c7;
+}
+
+/* Wrapper */
+#wrapper {
+    height: 100%;
+    background-image: url(http://demo.theme.co/restaurant/wp-content/uploads/sites/66/2015/08/bg-bamboo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 68em;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1em;
+    opacity: 1;
+    filter: none;
+    -moz-transition: opacity 1s ease, -moz-filter 1s ease;
+    -webkit-transition: opacity 1s ease, -webkit-filter 1s ease;
+    -ms-transition: opacity 1s ease, -ms-filter 1s ease;
+    transition: opacity 1s ease, filter 1s ease;
+    box-shadow: 1px 5px 30px 5px black;
+    padding-top: 2%;
+}
+
+.mainpicture {
+    width: 74.45%;
+    margin-left: 12.8%;
+    box-shadow: 1px 5px 30px 5px black;
+}
+
+body.is-loading #wrapper {
+    opacity: 0;
+    -moz-filter: blur(1px);
+    -webkit-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+}
+
+body.is-covered #wrapper {
+    -moz-filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+}
+
+/* Thumbnails */
+.thumbnails {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    position: relative;
+    margin: 0 0 2em -2em;
+}
+
+.thumbnails a {
+    -moz-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    border-bottom: none;
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0.075);
+    cursor: pointer;
+    outline: 0;
+    overflow: hidden;
+}
+
+.thumbnails a img {
+    display: block;
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.thumbnails a:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 0.5em 0 #FF6382;
+}
+
+.thumbnails > div {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: calc(100% / 3);
+    padding-left: 2em;
+}
+
+.thumbnails > div >:last-child {
+    margin-bottom: 0;
+}
+
+/*----------Contact Page----------*/
+/* Business Hours */
+#contact {
+    width: 95%;
+    margin-left: 2.5%;
+    box-shadow: 1px 5px 30px 5px black;
+}
+
+#contactmaincontainer {
+    width: 100%;
+    background-image: url(http://www.siorravittoria.com/images/background_contact.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#contactuscontainer {
+    width: 100%;
+    background-image: url(http://i1255.photobucket.com/albums/hh639/Jeetendra408/Anniversary_0061_6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#contactuscontainer h1 {
+    font-size: 500%;
+    text-align: center;
+    color: #d35400;
+    padding: 25% 0 0 0;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px 10px black;
+}
+
+#hourcontainer {
+    float: left;
+    width: 33.33333333333%;
+    margin-left: 0px;
+    border-right: 2px solid grey;
+    background-color: transparent;
+}
+
+#hourcontainer h1 {
+    text-align: center;
+    color: #c0392b;
+}
+
+#hourcontainer p {
+    color: grey;
+    font-family: Trebuchet MS;
+    border: 2px solid lightgrey;
+    margin: 5% 0 0 12%;
+    padding: 5%;
+}
+
+.right {
+    float: right;
+    color: black;
+    font-family: Trebuchet MS;
+}
+
+/*Location*/
+#locationcontainer {
+    float: left;
+    width: 33.333333333%;
+    border-right: 2px solid grey;
+}
+
+#locationcontainer h1 {
+    text-align: center;
+    color: #c0392b;
+}
+
+#locationcontainer p {
+    text-align: center;
+    color: grey;
+    font-family: Trebuchet MS;
+    border: 2px solid lightgrey;
+    display: inline-block;
+    margin: 5% 0 0 12%;
+    padding: 7.5% 20% 7.5% 20%;
+}
+
+/*Contact Info*/
+#contactcontainer {
+    float: left;
+    width: 33.33333333%;
+}
+
+#contactcontainer h1 {
+    text-align: center;
+    color: #c0392b;
+}
+
+#contactcontainer p {
+    color: grey;
+    font-family: Trebuchet MS;
+    border: 2px solid lightgrey;
+    margin: 4% 0 0 12%;
+    padding: 5.1%;
+}
+
+.hours {
+    margin-left: 30%;
+}
+
+/* Featurettes */
+.featurette-divider {
+    margin: 80px 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.featurette-divider {
+    margin-top: -50px;
+}
+
+/* -------------------------------- */
+/* RESPONSIVE CSS */
+@media screen and (max-width: 1280px) {
+    
+    .thumbnails {
+        margin: 0 0 2em -1.5em;
+    }
+    .thumbnails a {
+        margin: 0 0 1.5em 0;
+    }
+    .thumbnails > div {
+        padding-left: 1.5em;
+    }
+}
+
+/* iPad Air 2 (1024 x 768) */
+@media screen and (max-width: 1024px) {
+    
+    /* Navigation Bar */
+    .nav {
+        width: 100%;
+    }
+    
+    /* Carousel Container */
+    #myCarousel {
+        height: 400px;
+    }
+    
+    .carousel .item {
+    height: 400px;
+    }
+    
+    .carousel-indicators {
+        margin: 0;
+    }
+    
+    .carousel-control {
+        margin: 0;
+    }
+    
+    /* Dine-In & Take-Out Container */
+    #dinetakecontainer h1 {
+        margin: 1em 0 0.5em 8.4em;
+    }
+    
+    /* Catering Container */
+    #cateringcontainer h1 {
+        margin: 1em 0 0em 9.5em;
+    }
+    
+    #cateringcontainer h3 {
+        font-size: 15px;
+    }
+    
+    #cateringphotos h6 {
+        font-size: 10px;
+    }
+    
+    #cateringphotos h5 {
+        font-size: 10px;
+    }
+     
+    #cateringphotos h4 {
+        font-size: 10px;
+    }
+    
+    /* Banquet Hall Container */
+    #hallcontainer h1 {
+        font-size: 30px;
+        width: 56%;
+        padding: 10% 0 23% 0 ;
+        margin: 0;
+    }
+
+    #hallcontainer h3 {
+        font-size: 15px;
+        width: 53%;
+        margin: 6.5em 0 0 0.8em;
+        padding: 5%;
+    }
+
+    #hallcontainer h2 {
+        font-size: 15px;
+    }
+    
+    /* Sweet Container */
+    #sweetcontainer h1 {
+        font-size: 25px;
+        margin: 1em 0 0.3em 13.5em;
+    }
+    
+    /* Social Media */
+    #facebookcontainer img {
+        width: 30%;
+        height: 30%;
+    }
+    
+    #facebookcontainer h2 {
+        font-size: 20px
+    }
+    
+    #yelpcontainer img {
+        width: 30%;
+        height: 30%;
+    }
+    
+    #yelpcontainer h2 {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    /*------ Banquet Hall Page ----*/
+    .mainpicture {
+        width: 93%;
+        margin: 0 0 0 2.6em;
+    }
+    
+    .thumbnails {
+        display: block;
+    }
+    .thumbnails a {
+        margin: 0 0 2em 0 !important;
+    }
+    .thumbnails > div {
+        display: block;
+        width: 100%;
+    }
+    .thumbnails > div:last-child >:last-child {
+        margin-bottom: 0 !important;
+    }
+    
+    /*-------Contact Page ----*/
+    /* Business Hours */
+    #contact {
+        width: 100%;
+        margin: 0;
+        box-shadow: 0px 0px 0px;
+    }
+
+    #contactuscontainer h1 {
+        font-size: 50px;
+    }
+
+    #hourcontainer {
+        width: 100%;
+    }
+
+    #hourcontainer h1 {
+        font-size: 40px;
+        margin: 0.5em 0 0.5em 0;
+    }
+
+    #hourcontainer p {
+        margin: 0 15em 0 30em;
+    }
+
+    /*Location*/
+    #locationcontainer {
+        width: 100%;
+        border: 0;
+    }
+    
+    #locationcontainer h1 {
+        font-size: 40px;
+        margin: 0.5em 0 0.5em 0;
+    }
+
+    #locationcontainer p {
+        margin: 0 0 0 3em;
+    }
+
+    /*Contact Info*/
+    #contactcontainer {
+        width: 100%;
+        border: 0;
+    }
+
+    #contactcontainer h1 {
+        font-size: 40px;
+        margin: 0.5em 0 0.5em 0;
+    }
+
+    #contactcontainer p {
+        margin: 0 0 1em 0;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+        .mainpicture {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    
+        #dinetakecontainer h1 {
+        margin: 0.5em 0 0.5em 5.1em;
+}
+}
+
+
+@media screen and (max-width: 640px) {
+    
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    /* Navigation Bar */
+    .nav {
+        text-align: center;
+        width: 104%;
+    }
+    
+    /* Carousel Container */
+    #myCarousel {
+        height: 300px;
+    }
+    
+    .carousel .item {
+    height: 300px;
+    }
+    
+    .carousel-indicators {
+        margin: 0;
+    }
+    
+    .carousel-control {
+        margin: 0;
+    }
+    
+    /* Dine-In & Take-Out Container */
+    #dinetakecontainer h1 {
+        font-size: 25px;
+        margin: 1em 0 0.5em 2.8em;
+    }
+    
+    /* Catering Container */
+    #cateringcontainer h1 {
+        font-size: 25px;
+        margin: 1em 0 0em 4em;
+    }
+    
+    #cateringcontainer h3 {
+        font-size: 15px;
+    }
+    
+    #cateringphotos h6 {
+        font-size: 10px;
+    }
+    
+    #cateringphotos h5 {
+        font-size: 10px;
+    }
+     
+    #cateringphotos h4 {
+        font-size: 10px;
+    }
+    
+    /* Banquet Hall Container */
+    #hallcontainer h1 {
+        font-size: 30px;
+        width: 56%;
+        padding: 15% 0 44% 0 ;
+        margin: 0;
+    }
+
+    #hallcontainer h3 {
+        font-size: 15px;
+        width: 50%;
+        margin: 7em 0 0 0.8em;
+        padding: 5%;
+    }
+
+    #hallcontainer h2 {
+        font-size: 15px;
+    }
+    
+    /* Sweet Container */
+    #sweetcontainer h1 {
+        font-size: 25px;
+        margin: 1em 0 0.3em 2.1em;
+    }
+    
+    /* Social Media */
+    #facebookcontainer img {
+        width: 40%;
+        height: 40%;
+    }
+    
+    #facebookcontainer h2 {
+        font-size: 20px
+    }
+    
+    #yelpcontainer img {
+        width: 40%;
+        height: 40%;
+    }
+    
+    #yelpcontainer h2 {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+    /*------ Banquet Hall Page ----*/
+    .mainpicture {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    
+    .thumbnails {
+        display: block;
+    }
+    .thumbnails a {
+        margin: 0 0 2em 0 !important;
+    }
+    .thumbnails > div {
+        display: block;
+        width: 100%;
+    }
+    .thumbnails > div:last-child >:last-child {
+        margin-bottom: 0 !important;
+    }
+    
+    /*-------Contact Page ----*/
+    /* Business Hours */
+    #contact {
+        width: 100%;
+        margin: 0;
+        box-shadow: 0px 0px 0px;
+    }
+
+    #contactuscontainer h1 {
+        font-size: 40px;
+    }
+
+    #hourcontainer {
+        width: 100%;
+        border: 0;
+    }
+
+    #hourcontainer h1 {
+        font-size: 40px;
+        margin: 0.5em 0 0.5em 0;
+    }
+
+    #hourcontainer p {
+        margin: 0;
+    }
+
+    /*Location*/
+    #locationcontainer {
+        width: 100%;
+        border: 0;
+    }
+    
+    #locationcontainer h1 {
+        font-size: 40px;
+        margin: 0.5em 0 0.5em 0;
+    }
+
+    #locationcontainer p {
+        margin: 0 0 0 3em;
+    }
+
+    /*Contact Info*/
+    #contactcontainer {
+        width: 100%;
+        border: 0;
+    }
+
+    #contactcontainer h1 {
+        font-size: 40px;
+        margin: 0.5em 0 0.5em 0;
+    }
+
+    #contactcontainer p {
+        margin: 0 0 1em 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE CSS */
+@media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+    .featurette-heading {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 50px;
+    }
+}
+
